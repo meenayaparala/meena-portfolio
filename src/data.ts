@@ -105,3 +105,24 @@ export const certifications: Certification[] = [
     link: 'https://drive.google.com/file/d/1XxD0njKeUHlWtCCVCjrx0ZRUVM9uYsgN/view?usp=sharing'
   }
 ];
+
+export const education = [
+  {
+    degree: 'Bachelor of Technology in Computer Science and engineering (Cyber Security)',
+    institution: 'Rajeev Gandhi Memorial College Of Engineering and Technology, Nandyal',
+    year: '2023 - 2026',
+    description: 'Specialized in cybersecurity, focusing on network security, penetration testing, and secure software development.',
+  },
+  {
+    degree: 'Intermediate',
+    institution: 'Medha Junior College, Mydukur',
+    year: '2021 - 2022',
+    description: 'Completed coursework in mathematics, physics, and computer science.',
+  },
+  {
+    degree: 'Schooling',
+    institution: 'Little Scholars The Global High School, Mydukur',
+    year: '2019 - 2020',
+    description: 'Focused on foundational studies in science, mathematics, and social sciences.',
+  },
+];

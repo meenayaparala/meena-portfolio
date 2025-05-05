@@ -36,7 +36,7 @@ export default function Hero() {
               transition={{
                 duration: Math.random() * 10 + 10,
                 repeat: Infinity,
-                ease: "linear"
+                ease: "linear",
               }}
             />
           ))}
@@ -58,12 +58,12 @@ export default function Hero() {
             transition={{
               duration: 5,
               repeat: Infinity,
-              ease: "linear"
+              ease: "linear",
             }}
           >
             <Shield className="w-20 h-20 mx-auto text-cyan-500 mb-8" />
           </motion.div>
-          
+
           <h1 className="text-4xl sm:text-6xl font-bold text-white mb-6">
             <motion.span
               initial={{ opacity: 0 }}
@@ -71,18 +71,24 @@ export default function Hero() {
               transition={{ delay: 0.5 }}
               className="bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text"
             >
-              Cybersecurity Professional
+              Hello, It's Me <span className="text-cyan-500">Meena Kumari Yaparala</span>
             </motion.span>
           </h1>
-          
+
+          <h2 className="text-2xl sm:text-3xl font-semibold text-gray-300">
+            And I'm a <span className="text-cyan-500">Cybersecurity  and Web security penetration testing Enthusiast</span>
+          </h2>
+
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8 }}
             className="text-xl text-gray-300 mb-8"
           >
-            Protecting digital assets through innovative security solutions and solving complex problems,
-            A Cyber Security Student searching for job opportunities 
+            Welcome to My Portfolio Website! We appreciate your interest in visiting my site.
+            I hope you enjoy visiting my portfolio. Protecting digital assets through innovative
+            security solutions and solving complex problems, A Cyber Security Student searching for
+            job opportunities.
           </motion.p>
 
           <motion.a
