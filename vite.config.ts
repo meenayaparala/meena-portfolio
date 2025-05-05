@@ -1,11 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/meena-portfolio/' : '/',
+  base: '/meena-portfolio/', // Ensure this matches your repository name
   plugins: [react()],
-  optimizeDeps: {
-    exclude: ['lucide-react'],
-  },
 });
