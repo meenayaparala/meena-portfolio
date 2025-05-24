@@ -24,13 +24,7 @@ const certifications = [
     logo: 'https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png',
     link: 'https://drive.google.com/file/d/14j1il2zRp9Q2hKV_CQ0qZphzZe7PuSge/view?usp=sharing',
   },
-  {
-    name: 'Introduction to Cyber Security',
-    issuer: 'CISCO',
-    date: '2024',
-    logo: 'https://logowik.com/content/uploads/images/cisco-systems9760.jpg',
-    link: 'https://drive.google.com/file/d/1XxD0njKeUHlWtCCVCjrx0ZRUVM9uYsgN/view?usp=sharing',
-  },
+  
 ];
 
 export default function Certifications() {

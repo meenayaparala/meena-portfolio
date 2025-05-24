@@ -71,10 +71,44 @@ export const projects: Project[] = [
   • Used Cisco Packet Tracer CLI for device configurations and troubleshooting
   
   These labs were completed as part of my cybersecurity coursework and networking fundamentals module. They helped me gain practical experience in designing and managing network infrastructure.`
-  }
-  
-];
+  },
+  {
+  title: 'PhishGuard',
+  description: 'A phishing detection tool that helps users identify and avoid phishing websites.',
+  technologies: ['React', 'Node.js', 'Express', 'Machine Learning'],
+  github: 'https://github.com/meenayaparala/phishGuard.git',
+  image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80', // Update if you have a different image
+  longDescription: `PhishGuard is an intelligent phishing detection tool designed to help users identify and avoid phishing websites using machine learning and real-time analysis.
 
+Key Highlights:
+• Utilizes machine learning algorithms to detect phishing URLs with high accuracy  
+• Real-time scanning and instant feedback for suspicious links  
+• User-friendly React-based interface for easy interaction  
+• Backend powered by Node.js and Express for fast API responses  
+• Integrates with browser extensions for seamless protection  
+• Open-source and customizable for different security needs
+
+PhishGuard empowers users to browse the web safely by providing proactive phishing detection and educational insights about online threats.`
+},
+{
+  title: 'picoCTF Writeups',
+  description: 'A collection of detailed writeups for picoCTF challenges, covering various cybersecurity topics and solutions.',
+  technologies: ['CTF', 'Cybersecurity', 'Writeups', 'Forensics', 'Reverse Engineering'],
+  github: 'https://github.com/meenayaparala/picoCTF-Writeups.dude',
+  image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80', // Replace with your actual image if available
+  longDescription: `This repository contains comprehensive writeups for picoCTF challenges I have solved. Each writeup explains the problem, approach, and solution in detail, covering topics such as cryptography, forensics, web exploitation, binary exploitation, and reverse engineering.
+
+Key Highlights:
+• Step-by-step solutions for a variety of picoCTF problems  
+• Screenshots and code snippets for clarity  
+• Focus on learning and sharing cybersecurity techniques  
+• Useful for beginners and intermediate CTF players  
+• Continuously updated with new challenge solutions
+
+These writeups demonstrate my problem-solving skills and knowledge in cybersecurity, and serve as a resource for the CTF community.`
+},
+];
+  
 export const certifications: Certification[] = [
   {
     name: 'Introduction to cyber Security',
